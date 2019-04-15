@@ -1,12 +1,15 @@
 {
-  "pages":[
+  "pages": [
+    "pages/one/one",
     "pages/index/index",
     "pages/logs/logs"
+   
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "天汇智码_四期班",
+    "navigationBarTextStyle": "black"
   }
 }
+
