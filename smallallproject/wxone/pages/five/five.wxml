@@ -1,0 +1,15 @@
+<!--pages/five/five.wxml-->
+<view  class="baseview">
+     <view  class="topview">可以拖动的组件</view>
+     <view  class="contentview">
+        
+        <movable-area  class="mview">
+          <movable-view  class="childview1"direction="all">
+          </movable-view>
+
+          <movable-view  class="childview2" x="{{200}}" y="{{200}}" direction="all">
+            </movable-view>
+        
+        </movable-area>
+     </view>
+</view>

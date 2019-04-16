@@ -1,4 +1,4 @@
-// pages/one/one.js
+// pages/five/five.js
 Page({
 
   /**
@@ -13,9 +13,7 @@ Page({
    */
   onLoad: function (options) {
 
-      console.log("页面被加载");
-
-    // wx.showToast({ title: '梁晓琪',icon:"none",duration:8000});
+    console.log(b);
 
   },
 

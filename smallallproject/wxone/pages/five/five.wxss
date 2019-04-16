@@ -1,0 +1,36 @@
+/* pages/five/five.wxss */
+.baseview{
+  width: 100%;
+  height: 100vh;
+  background-color: papayawhip;
+}
+.topview{
+  width: 100%;
+  height: 12%;
+  border-bottom: 1px solid  black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 10px;
+  font-size: 18px;
+}
+.contentview{
+  width: 100%;
+  height: 88%;
+  background-color: peru;
+
+}
+.mview{
+  width: 100%;
+  height: 200px;
+}
+.childview1{
+  width: 100px;
+  height: 50px;
+  background-color: green;
+}
+.childview2{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}

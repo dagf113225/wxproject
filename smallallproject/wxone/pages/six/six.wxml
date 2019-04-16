@@ -1,0 +1,20 @@
+<!--pages/six/six.wxml-->
+<view  class="baseview">
+       <view  class="topview">
+          <text>九宫格</text>
+       </view>
+       <view  class="contentview">
+           <view  class="cell">1</view>
+           <view  class="cell">2</view>
+           <view  class="cell">3</view>
+           <view  class="cell">4</view>
+           <view  class="cell">5</view>
+           <view  class="cell">6</view>
+           <view  class="cell">7</view>
+           <view  class="cell">8</view>
+           <view  class="cell">9</view>
+       
+       </view>
+       <view class="bottomview"></view>
+
+</view>

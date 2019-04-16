@@ -1,0 +1,6 @@
+<!--pages/three/three.wxml-->
+<view  class="baseview">
+   <view  class="topview"></view>
+   <view  class="contentview"></view>
+   <view class="bottomview"></view>
+</view>

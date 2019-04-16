@@ -1,6 +1,14 @@
 {
   "pages": [
+        "pages/five/five",
+      "pages/six/six",
+
+  
+   
+    "pages/four/four",
+    "pages/three/three",
     "pages/one/one",
+    "pages/two/two",
     "pages/index/index",
     "pages/logs/logs"
    
@@ -12,4 +20,3 @@
     "navigationBarTextStyle": "black"
   }
 }
-

@@ -1,0 +1,23 @@
+/* pages/three/three.wxss */
+/**选择器.class对应的样式的名称**/
+.baseview{
+  width: 100%;
+  height: 100vh;/**高度不能百分比,应使用vh**/
+  background-color: palevioletred;
+}
+.topview{
+  width: 100%;
+  height: 10%;
+  /**border: 5px  solid  black;**/
+  border-bottom: 2px  solid  black;
+}
+.contentview{
+  width: 100%;
+  height: 85%;
+  border-bottom: 2px dotted  green;
+}
+.bottomview{
+  width: 100%;
+  height: 4%;
+  background-color: peru;
+}

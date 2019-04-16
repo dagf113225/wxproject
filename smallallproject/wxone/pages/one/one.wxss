@@ -1,9 +1,36 @@
 /* pages/one/one.wxss */
-.tv
+.cview{
+
+  /**宽**/
+  width: 100px;
+
+  /**高**/
+  height: 50px;
+
+  /**边框  solid 实心线,dotted 虚线 **/
+  /**border: 10px  dotted blue;**/
+
+  /**背景颜色**/
+  background-color: red;
+}
+.twoview
 {
-  font-family: 楷体;
-  font-style: italic;
-  font-weight: bold;
-  color: red;
-  font-size: 22px;
+  width: 100%;
+  height: 30px;
+  background-color: green;
+}
+.fview{
+  width: 100%;
+  height: 100px;
+  background-color: palegoldenrod;
+}
+.oview{
+  width: 20px;
+  height: 20px;
+  border: 1px  solid  red;
+}
+.tview{
+    width: 20px;
+  height: 20px;
+  border: 1px  solid  blue;
 }

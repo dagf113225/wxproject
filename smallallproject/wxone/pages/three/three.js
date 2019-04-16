@@ -1,4 +1,4 @@
-// pages/one/one.js
+// pages/three/three.js
 Page({
 
   /**
@@ -12,10 +12,6 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
-      console.log("页面被加载");
-
-    // wx.showToast({ title: '梁晓琪',icon:"none",duration:8000});
 
   },
 

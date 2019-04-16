@@ -1,0 +1,32 @@
+<!--pages/four/four.wxml-->
+<view  class="baseview">
+      <!--包裹在外部view中 start-->
+       <view  class="oneview">
+       
+                <text>智慧生活</text>
+       
+       </view>
+       <view  class="twoview">
+       
+            <view class="twoview1">
+               <view  class="o1"></view>
+               <view class="o2"></view>
+            
+            
+            </view>
+            <view class="twoview2">
+                  <view  class="o3"></view>
+                  <view class="o4"></view>
+                  <view class="o5"></view>
+            </view>
+       
+       
+       
+       
+       </view>
+       <view  class="threeview">
+          金旺科技有限公司
+       
+       </view>
+       <!--包裹在外部view中 end-->
+</view>

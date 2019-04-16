@@ -1,0 +1,39 @@
+/* pages/six/six.wxss */
+.baseview{
+  width: 100%;
+  height: 100vh;
+  background-color: palegoldenrod;
+}
+.topview{
+  width: 100%;
+  height: 12%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 15px;
+  font-family: 楷体;
+  font-size: 32px;
+}
+.contentview{
+  width: 100%;
+  height: 80%;
+  background-image: linear-gradient(to  bottom,#fff,#ccc);
+  display: flex;
+  flex-direction: row;
+  /**自动换行**/
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cell{
+  width: 70px;
+  height: 70px;
+  border: 1px  solid  red;
+  margin-left: 15px;
+  /**border-radius: 5px;**/
+  border-radius:70px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

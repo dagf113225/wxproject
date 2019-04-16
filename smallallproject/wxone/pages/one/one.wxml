@@ -1,4 +1,24 @@
 <!--pages/one/one.wxml-->
-<text  class='tv'>天汇智码智芯科技</text>
 
-<image></image>
+<!--第一个盒子  start-->
+<view class="cview">
+</view>
+<!--第一个盒子  end-->
+
+<!--第二个盒子 start-->
+<view  class="twoview">
+
+
+</view>
+<!--第二个盒子 end-->
+
+<view  class="fview">
+     <view  class="oview"></view>
+     <view  class="tview"></view>
+</view>
+
+
+
+
+
+
