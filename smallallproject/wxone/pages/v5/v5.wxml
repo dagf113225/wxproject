@@ -1,0 +1,18 @@
+<!--pages/v5/v5.wxml-->
+<swiper  indicator-active-color='blue'  indicator-dots='{{true}}'  class="swiperview">
+   
+   <block  wx:for="{{swiperdatas}}">
+       <swiper-item>
+          <view  class="cview">
+             <image class="cimg" src='{{item}}'></image>
+          
+             <block  wx:if="{{index==swiperdatas.length-1}}">
+
+                <button class="btnimg" bindtap='aa'>进入体验</button>
+             </block>
+          </view>
+       </swiper-item>
+
+   </block>
+
+</swiper>

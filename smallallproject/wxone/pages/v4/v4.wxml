@@ -1,0 +1,13 @@
+<!--pages/v4/v4.wxml-->
+
+<block  wx:for="{{['one','two','three','four']}}">
+     <block wx:if="{{index%2==0}}">
+          <view  class="cview">{{item}}</view>
+     </block>
+     <!--<block  wx:else>
+        <view  class="cview1">{{item}}</view>
+      </block>-->
+      <block  wx:if="{{index%2!=0}}">
+          <view  class="cview1">{{item}}</view>
+      </block>
+</block>

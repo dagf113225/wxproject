@@ -1,0 +1,2 @@
+<!--pages/data3/data3.wxml-->
+<button bindtap='clickbtn'>跳转</button>

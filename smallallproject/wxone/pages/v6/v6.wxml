@@ -1,0 +1,13 @@
+<!--pages/v6/v6.wxml-->
+<swiper  indicator-dots='{{true}}'>
+     <block  wx:for="{{imgdata}}">
+        <navigator  url='{{item.path}}'>
+        <swiper-item>
+            <view  class="sview">
+                <image  class="cimg" src="{{item.imgpath}}"></image>
+
+            </view>
+        </swiper-item>
+</navigator>
+     </block>
+</swiper>

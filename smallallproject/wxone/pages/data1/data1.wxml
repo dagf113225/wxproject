@@ -1,0 +1,29 @@
+<!--pages/data1/data1.wxml-->
+  <text  class="{{ts}}">{{name}}</text>
+
+  <button class="{{bs}}" bindtap='btnclick'>{{btntext}}</button>
+
+<swiper class="sview"  vertical='{{true}}'  autoplay='{{true}}'  circular='{{true}}'>
+
+  <block wx:for="{{swiperdatas}}">
+    <navigator  url='{{item.url}}'>
+           <swiper-item>
+                <text>{{item.text}}</text>
+           </swiper-item>
+   </navigator>
+  </block>
+ 
+ <!--<swiper-item>
+    <text>1.明天是南京解放70周年！</text>
+ </swiper-item>
+
+ <swiper-item>
+    <text>2.明天是中国海军建军70周年！</text>
+ </swiper-item>
+
+
+  <swiper-item>
+    <text>3.郭台铭宣布参选台湾地区领导人！</text>
+ </swiper-item>-->
+
+</swiper>

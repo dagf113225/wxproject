@@ -1,17 +1,24 @@
 {
   "pages": [
-        "pages/five/five",
-      "pages/six/six",
-
-  
-   
+    "pages/data3/data3",
+    "pages/data2/data2",
+    "pages/data1/data1",
+    "pages/v8/v8",
+    "pages/v6/v6",
+    "pages/v5/v5",
+    "pages/v4/v4",
+    "pages/v3/v3",
+    "pages/v2/v2",
+    "pages/v1/v1",
+    "pages/five/five",
+    "pages/six/six",
     "pages/four/four",
     "pages/three/three",
     "pages/one/one",
     "pages/two/two",
     "pages/index/index",
     "pages/logs/logs"
-   
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

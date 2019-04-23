@@ -1,0 +1,24 @@
+<!--pages/v2/v2.wxml-->
+<swiper  indicator-dots='{{true}}' autoplay='{{true}}'
+indicator-active-color='blue'  interval='{{2000}}'
+vertical='{{false}}'  circular='{{true}}'
+duration='{{3000}}'
+>
+      <navigator url="../three/three">
+      <swiper-item>
+        <image src='../images/m1.jpg' class="cimg" ></image>
+      </swiper-item>
+      </navigator>
+
+      <navigator url="../two/two">
+      <swiper-item>
+        <image src='../images/m2.jpg'  class="cimg"></image>
+      </swiper-item>
+      </navigator>
+
+      <navigator url="../one/one">
+      <swiper-item>
+        <image src='../images/m3.jpg'  class="cimg"></image>
+      </swiper-item>
+      </navigator>
+</swiper>

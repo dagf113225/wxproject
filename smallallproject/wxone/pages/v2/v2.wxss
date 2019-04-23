@@ -1,0 +1,6 @@
+/* pages/v2/v2.wxss */
+.cimg{
+  width: 100%;
+  height: 100%;
+
+}

@@ -1,0 +1,83 @@
+/* pages/v3/v3.wxss */
+.baseview{
+  width: 100%;
+  height: 100vh;
+}
+.topview{
+  width: 100%;
+  height: 6%;
+  border-bottom: 1px  solid  rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 楷体;
+  color:black;
+  font-weight: bold;
+}
+.swiperview{
+  width: 100%;
+  height: 20%;
+ /** border: 1px  solid  peru;**/
+}
+.scview{
+  width: 100%;
+  height: 100%;
+}
+.titleview{
+  width: 100%;
+  height: 6%;
+  border-bottom: 5px  dotted peru;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 楷体;
+  color:black;
+  font-weight: bold;
+}
+.sview{
+  width: 100%;
+  height: 60%;
+ /** border: 1px  solid  red;**/
+}
+.contentview{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cell{
+  width: 28%;
+  height: 28%;
+  border: 2px  solid palegreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.bottomview{
+  width: 100%;
+  height: 8%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 5px  solid  #ccc;
+  align-items:  baseline;
+  font-family: 楷体;
+  color:black;
+  font-weight: bold;
+ 
+}
+.bleftview{
+  width: 100px;
+  height: 50%;
+ /** border: 2px  solid blue;**/
+}
+.cimg{
+  width: 100%;
+  height: 100%;
+}
+.rightview
+{
+    width: 60px;
+  height: 60%;
+}

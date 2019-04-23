@@ -1,0 +1,20 @@
+/* pages/v5/v5.wxss */
+.swiperview{
+  width: 100%;
+  height: 100vh;
+}
+.cview{
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+.cimg{
+  width: 100%;
+  height: 100%;
+}
+.btnimg{
+  position: relative;
+  width: 120px;
+  height: 40px;
+  bottom: 90px;
+}

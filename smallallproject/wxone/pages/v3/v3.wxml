@@ -1,0 +1,65 @@
+<!--pages/v3/v3.wxml-->
+<view  class="baseview">
+   
+     <view class="topview">
+          <text>三化思想</text>
+     </view> 
+
+     <view class="swiperview">
+       <swiper class="scview"  indicator-dots='{{true}}'  autoplay='{{true}}'  interval='{{3000}}'   duration='{{3000}}'  circular='{{true}}'>
+          <swiper-item>
+             <image  src='../images/m1.jpg'></image>
+          </swiper-item>
+          <swiper-item>
+              <image  src='../images/m2.jpg'></image>
+          </swiper-item>
+          <swiper-item>
+             <image  src='../images/m3.jpg'></image>
+          </swiper-item>
+       </swiper>
+     
+     </view>
+
+     <view class="titleview">
+     
+        <text>功能列表</text>
+     
+     </view>
+
+
+
+     <scroll-view  scroll-y="{{true}}"  class="sview">
+         <view  class="contentview">
+                <view  class="cell">功能1</view>
+                <view  class="cell">功能2</view>
+                <view  class="cell">功能3</view>
+                <view  class="cell">功能4</view>
+                <view  class="cell">功能5</view>
+                <view  class="cell">功能6</view>
+                <view  class="cell">功能7</view>
+                <view  class="cell">功能8</view>
+                <view  class="cell">功能9</view>
+                <view  class="cell">功能10</view>
+                <view  class="cell">功能11</view>
+                <view  class="cell">功能12</view>
+     
+         </view>
+     </scroll-view>
+
+
+
+     <view  class="bottomview">
+         <view  class="bleftview">
+           <image  src='../images/thzhima_logo.jpg' class="cimg"></image>
+         </view>
+
+          <text>欣子科技</text>
+
+           <view  class="rightview">
+           <image  src='../images/thzmgzh.jpg' class="cimg"></image>
+         </view>
+     </view>
+
+
+
+</view>

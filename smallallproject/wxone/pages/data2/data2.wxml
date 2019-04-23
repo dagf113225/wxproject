@@ -1,0 +1,3 @@
+<!--pages/data2/data2.wxml-->
+<text>{{pagetextdatas.title}}</text>
+<button>{{pagetextdatas.btntext}}</button>

@@ -1,0 +1,35 @@
+/* pages/v1/v1.wxss */
+.baseview{
+  width: 100%;
+  height: 100vh;
+  background-color: #ccffcc;
+}
+.topview{
+  width: 100%;
+  height: 12%;
+  background-color: palegoldenrod;
+}
+.contentview{
+  width: 100%;
+  height: 80%;
+  background-color: antiquewhite;
+}
+.sview{
+  width: 100%;
+  height: 2000%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottomview{
+  width: 100%;
+  height: 8%;
+  background-color: palevioletred;
+}
+.cell{
+  width: 80%;
+  height: 140px;
+  border: 1px  solid  red;
+  margin-top: 10px;
+  background-image: linear-gradient(to  bottom  right,#ccc,#fff);
+}
